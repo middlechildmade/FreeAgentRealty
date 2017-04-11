@@ -1,0 +1,133 @@
+---
+layout: default
+---
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="items">
+										<section class="accent2">
+											<h1>{{ page.title }}</h1>
+                                            <h4>{{ page.city }} {{ page.state }}, {{ page.zip }}</h4>
+								            <ul class="alt prop_features">
+								            <li>{{ page.bed }} Bedrooms</li>
+								            <li>{{ page.bath }} Bathrooms</li>
+								            <li>{{ page.sq_ft }} sq ft</li>
+                                            <li>MLS # {{ page.mls }}</li>
+								            </ul>
+                                            <ul class="actions">
+                                            <li><h2>&#36;{{ page.price }}</h2></li>
+                                            </ul>
+											<ul class="actions">
+												<li><a href="#" class="button squarebox"><i class="fa fa-print fa-lg"></i>&nbsp;&nbsp;Print</a></li>
+                                                <li><a href="/pdfs/{{ page.pdf }}" class="button squarebox"><i class="fa fa-file-pdf-o fa-lg"></i>&nbsp;&nbsp;Download PDF</a></li>
+											</ul>
+                                            
+										</section>
+									</div>
+									<div class="slider">
+										<article>
+											<img src="{{ page.image_featured }}" alt="" data-position="bottom right" />
+										</article>
+										<article>
+											<img src="{{ page.image_featured_2 }}" alt="" data-position="bottom right" />
+										</article>
+										<article>
+											<img src="{{ page.image_featured_3 }}" alt="" data-position="top left" />
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
+                            <section class="main">
+                            
+									<div class="row 200%">
+										<div class="5u 12u$(medium)">
+
+											<!-- Text stuff -->
+												
+												<header>
+													<h2>{{ page.title }}</h2>
+													<p>{{ page.city }} {{ page.state }}, {{ page.zip }}</p>
+												</header>
+												<p>{{ page.propertyDescription }}</p>
+												
+											<!-- Table -->
+                                                <h4>Features</h4>
+														<ul class="alt">
+															<li>Dolor pulvinar etiam magna etiam.</li>
+															<li>Sagittis adipiscing lorem eleifend.</li>
+															<li>Felis enim feugiat dolore viverra.</li>
+														</ul>
+										</div>
+										<div class="7u$ 12u$(medium)">
+											<!-- Image -->
+												<div class="box alt">
+													<div class="row 50% uniform">
+														<div class="4u"><span class="image fit"><img src="{{ page.image_01 }}" alt="" /></span></div>
+														<div class="4u"><span class="image fit"><img src="{{ page.image_02 }}" alt="" /></span></div>
+														<div class="4u$"><span class="image fit"><img src="{{ page.image_03 }}" alt="" /></span></div>
+														<!-- Break -->
+														<div class="4u"><span class="image fit"><img src="{{ page.image_04 }}" alt="" /></span></div>
+														<div class="4u"><span class="image fit"><img src="{{ page.image_05 }}" alt="" /></span></div>
+														<div class="4u$"><span class="image fit"><img src="{{ page.image_06 }}" alt="" /></span></div>
+														<!-- Break -->
+														<div class="4u"><span class="image fit"><img src="{{ page.image_07 }}" alt="" /></span></div>
+														<div class="4u"><span class="image fit"><img src="{{ page.image_08 }}" alt="" /></span></div>
+														<div class="4u$"><span class="image fit"><img src="{{ page.image_09 }}" alt="" /></span></div>
+													</div>
+												</div>
+											<!-- Box -->
+												
+												<div class="">
+													<section>              
+                                <div class="mapping">    
+  <div class="map-canvas" id="map-event"></div>  
+  <div class="map-point" address="" latitude="{{ page.latitude }}" longitude="{{ page.longitude }}" style="display:none">
+ </div>      
+</div>
+                                </section>
+												</div>
+										</div>
+									</div>
+                            </section>
+                            </div>
+					</div>
+                            	<div class="wrapper">
+						<div class="inner">						<!-- Section -->
+								<section class="carousel accent4">
+									{% for properties in site.properties %}
+                                    <article class="smaller-width">
+                                        <div class="image"><a href="{{ properties.url }}"><img src="{{ properties.image_featured }}" alt="" data-position="center" /></a></div>
+										<div class="content">
+                                            <a href="{{ properties.url }}"><h3>{{ properties.title }}</h3></a>
+											<p>{{ properties.city }} {{ properties.state }} {{ properties.zip }}</p>
+										</div>
+									</article>
+									{% endfor %}
+									<nav>
+										<a href="#" class="previous"><span class="label">Previous</span></a>
+										<a href="#" class="next"><span class="label">Next</span></a>
+									</nav>
+								</section></div>
+					</div>
+				<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
+
+							<!-- Section -->
+								<section class="main accent2">
+									<header class="major">
+										<h2>Get notified</h2>
+										<p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+									</header>
+									<form method="post" action="#" class="combined">
+										<input type="email" name="email" id="email" placeholder="Email address" class="invert" />
+										<input type="submit" class="special" value="Sign Up" />
+									</form>
+								</section>
+                        

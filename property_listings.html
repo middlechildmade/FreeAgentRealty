@@ -1,0 +1,57 @@
+---
+title: Properties
+layout: default
+---
+<div class="mapping">    
+  <div class="map-canvas" id="map-event"></div>
+    {% for properties in site.properties %}
+  <div class="map-point" address="" latitude="{{ properties.latitude }}" longitude="{{ properties.longitude }}" style="display:none">
+      <div class="map-marker"><a href="{{ properties.url }}">{{ properties.address }}</a></div>
+    <div></div>
+ </div>  
+    {% endfor %}   
+</div>
+	</div>
+					</div>
+<div class="wrapper">
+						<div class="inner">
+
+							<!-- Section -->
+								<section class="main">
+									<header class="major">
+										<h2>Our Properties</h2>
+										<p>Free Agent Realty</p>
+									</header>
+                                    
+                                    
+									<div class="features">
+        {% for properties in site.properties %}
+										<section class="property_list">
+                                            <div>
+                                                    <span class="image fit"><a href="{{ properties.url }}"><img src="{{ properties.image_featured }}" alt="" data-position="center" /></a>
+                                                    </span>
+                                                
+											<a href="{{ properties.url }}"><h3>{{ properties.title }}</h3><p>{{ properties.city }} {{ properties.state }} {{ properties.zip }}</p></a>
+                                            <h3>&#36;{{ properties.price }}</h3>
+                                            </div>
+										</section>
+        {% endfor %}
+									</div>
+								</section>
+						</div>
+</div>
+<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
+
+							<!-- Section -->
+								<section class="main accent2">
+									<header class="major">
+										<h2>Get notified</h2>
+										<p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+									</header>
+									<form method="post" action="#" class="combined">
+										<input type="email" name="email" id="email" placeholder="Email address" class="invert" />
+										<input type="submit" class="special" value="Sign Up" />
+									</form>
+								</section>

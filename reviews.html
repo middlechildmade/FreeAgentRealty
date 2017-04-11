@@ -1,0 +1,75 @@
+---
+title: Reviews
+layout: default
+---
+
+            <span class="image featured framed"><img src="images/lakeview_1600x815.jpg" alt="" /></span>
+               
+                <section><h1 class="center spacer_bottom">SEE WHAT OTHERS ARE SAYING ABOUT THEIR <br />EXPERIENCE with Free Agent Realty</h1></section>
+<!-- REVIEWS 1 -->
+{% for reviews in site.reviews %}
+               <section class="wrapper style1 container">
+							<div class="row">
+                                <div class="12u 12u(narrower)">
+											<h1 class="reviews_title">{{ reviews.title }}</h1>
+								</div>
+								<div class="4u 12u(narrower)">
+									<section>
+										<ul class="alt">
+                                                
+                                                <li class="reviews top-line">
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_01 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_02 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_03 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_04 }};"></span>
+                                                </li>
+                                                <li class="reviews">Local knowledge:&nbsp;&nbsp;&nbsp;<span class="icon fa-star" style="color:#{{ reviews.star_local_01 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_02 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_03 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_04 }};"></span>
+                                                </li>
+                                                <li class="reviews">Process expertise:&nbsp;&nbsp;&nbsp;<span class="icon fa-star" style="color:#{{ reviews.star_process_01 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_process_02 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_process_03 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_process_04 }};"></span>
+                                                </li>
+                                                <li class="reviews">Responsiveness:&nbsp;&nbsp;&nbsp;
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_responsive_01 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_responsive_02 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_responsive_03 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_responsive_04 }};"></span>
+                                                </li>
+                                                <li class="reviews">Negotiation skills:&nbsp;&nbsp;&nbsp;<span class="icon fa-star" style="color:#{{ reviews.star_negotiation_01 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_egotiation_02 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_egotiation_03 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_egotiation_04 }};"></span>
+                                                </li>
+											</ul>
+									</section>
+								</div>
+								<div class="8u 12u(narrower)">
+                                    <p class="review_subtext">{{ reviews.date_text }} - {{ reviews.username }}<br />{{ reviews.short_description}}</p>
+									<p>{{ reviews.full_description }}</p>
+								</div>
+
+							</div>
+                   
+						</section>
+                <section>
+                    <hr />
+                    <hr class="major-review" />	
+							
+							
+						</section>
+{% endfor %}
+<section class="wrapper style1 container special">
+							<div class="row spacer">
+								<div class="12u 12u(narrower)">
+                                    <header class="special_local container">
+						<span class="icon featured2 "><img src="images/local.svg"></span>
+                            <br />
+					</header>
+								</div>
+								
+							</div>
+						</section>
