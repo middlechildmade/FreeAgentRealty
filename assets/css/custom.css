@@ -150,3 +150,35 @@ hr.major-review {
 .carousel h3 {
     margin: 0;
 }
+.logo img {
+    display: inline;
+    height: 3em;
+    margin-bottom: -1.1em;
+    margin-left: -.4em;
+}
+#header > .logo {
+    margin-bottom: 1em!important;
+    font-family: serif;
+    font-size: 1.75em;
+}
+#header > nav {
+    padding-top: 2em;
+}
+#header {
+    margin: 0 0 1em 0;
+}
+@media screen and (max-width: 560px) {
+    #header > .logo {
+        font-size: 1.15em;
+    }
+}
+@media screen and (max-width: 560px) {
+    #header > nav {
+    padding-top: 1em;
+}
+}
+@media screen and (max-width: 480px) {
+    #header > nav {
+    padding-top: .5em;
+}
+}
