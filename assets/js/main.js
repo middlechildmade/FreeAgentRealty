@@ -27,6 +27,8 @@ var settings = {
 
 };
 
+
+
 (function($) {
 
 	skel.breakpoints({
@@ -347,7 +349,24 @@ var settings = {
 					visibleClass: 'is-menu-visible',
 					side: 'right'
 				});
+        
+			// Lightbox gallery.
+				$window.on('load', function() {
 
+					$('#gallery').poptrox({
+						overlayColor: '#2c2c2c',
+						overlayOpacity: 0.85,
+						popupCloserText: '',
+						popupLoaderText: '',
+						selector: '.prop_image a.image',
+						usePopupCaption: false,
+						usePopupDefaultStyling: false,
+						usePopupEasyClose: false,
+						usePopupNav: true,
+						windowMargin: (skel.breakpoint('small').active ? 0 : 50)
+					});
+
+				});
 	});
-
+   
 })(jQuery);
