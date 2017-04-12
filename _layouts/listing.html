@@ -103,9 +103,9 @@ layout: default
 								<section class="carousel accent4">
 									{% for properties in site.properties %}
                                     <article class="smaller-width">
-                                        <div class="image"><a href="{{ properties.url }}"><img src="{{ properties.image_featured }}" alt="" data-position="center" /></a></div>
+                                        <div class="image"><a href="{{ site.baseurl }}{{ properties.url }}"><img src="{{ properties.image_featured }}" alt="" data-position="center" /></a></div>
 										<div class="content">
-                                            <a href="{{ properties.url }}"><h3>{{ properties.title }}</h3></a>
+                                            <a href="{{ site.baseurl }}{{ properties.url }}"><h3>{{ properties.title }}</h3></a>
 											<div>{{ properties.city }} {{ properties.state }} {{ properties.zip }}</div>
                                             <div><span class="{{ properties.status }}">{{ properties.status }}</span></div>
 										</div>
