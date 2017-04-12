@@ -1,5 +1,6 @@
 ---
 title: Main St
+status: reduced
 layout: listing
 sidebar: sidebar_property.html
 address: main st Cottage Grove, WI 53527

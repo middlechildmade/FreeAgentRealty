@@ -1,5 +1,6 @@
 ---
 title: 337 Bonnie Rd
+status: sold
 layout: listing
 sidebar: sidebar_property.html
 address: 337 Bonnie Rd Cottage Grove, WI 53527

@@ -1,5 +1,6 @@
 ---
 title: 2829 Foxwood Trl
+status: new
 layout: listing
 sidebar: sidebar_property.html
 address: 2829 Foxwood Trl Madison WI 53713

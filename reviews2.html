@@ -1,0 +1,100 @@
+---
+title: Reviews2
+layout: default
+---
+</div>
+</div>
+
+
+				<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
+
+							<!-- Main -->
+								<section class="main">
+
+									<header class="major">
+										<h1>{{ page.title }}</h1>
+										<p>
+                                       Free Agent Realty
+                                        </p>
+									</header>
+
+									<a href="#" class="image main"><img src="images/walkway1600x815.jpg" alt="" /></a>
+                                    <h2 style="width:80%">See What Others Are Saying About Their Experience With Free Agent Realty</h2>
+               <!-- Wrapper -->
+					<div class="wrapper">
+						
+                           
+ 
+                                    <!-- REVIEWS -->
+{% for reviews in site.reviews %}
+               <section class="wrapper spacer">
+							<div class="row">
+                                
+								<div class="4u 12u(narrower)">
+									<section>
+										<div class="row">
+                                                
+                                                <div class="12u">
+                                                    <span class="icon fa-star fa-3x big_star" style="color:#{{ reviews.star_01 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_02 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_03 }};"></span>
+                                                    <span class="icon fa-star fa-3x" style="color:#{{ reviews.star_04 }};"></span>
+                                                </div>
+                                                <div class="7u 12u$(medium)">Local knowledge:
+                                                </div>
+                                                <div class="5u 12u$(medium)">
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_01 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_02 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_03 }};"></span>
+                                                <span class="icon fa-star" style="color:#{{ reviews.star_local_04 }};"></span>
+                                                </div>
+                                                
+											</div>
+									</section>
+								</div>
+								<div class="8u 12u(narrower)">
+                                    <h3 class="reviews_title">{{ reviews.title }}</h3>
+                                    <p class="review_subtext">{{ reviews.date_text }} - {{ reviews.username }}<br />{{ reviews.short_description}}</p>
+									<p>{{ reviews.full_description }}</p>
+								</div>
+
+							</div>
+                   
+						</section>
+                <section>
+                    <hr />
+                    <hr class="major-review" />	
+							
+							
+						</section>
+{% endfor %}
+                                    
+                                    
+                                    
+								
+                       
+                        </div>
+                
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Wrapper -->
+					<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
+
+							<!-- Section -->
+								<section class="main accent2">
+									<header class="major">
+										<h2>Get notified</h2>
+										<p>Lorem ipsum dolor sit amet nullam feugiat tempus</p>
+									</header>
+									<form method="post" action="#" class="combined">
+										<input type="email" name="email" id="email" placeholder="Email address" class="invert" />
+										<input type="submit" class="special" value="Sign Up" />
+									</form>
+								</section>

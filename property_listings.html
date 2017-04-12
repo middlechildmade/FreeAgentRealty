@@ -33,6 +33,7 @@ layout: default
                                                 
 											<a href="{{ properties.url }}"><h3>{{ properties.title }}</h3><p>{{ properties.city }} {{ properties.state }} {{ properties.zip }}</p></a>
                                             <h3>&#36;{{ properties.price }}</h3>
+                                                <div><span class="{{ properties.status }}">{{ properties.status }}</span></div>
                                             </div>
 										</section>
         {% endfor %}

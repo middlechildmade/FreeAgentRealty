@@ -24,6 +24,6 @@ star_responsive_04:
 star_negotiation_01:
 star_negotiation_02:
 star_negotiation_03:
-star_negotiation_04:
+star_negotiation_04: 
 ---
 <!-- All four stars will automatically be gold, Enter eeeeee when a star needs to be "turned off" -->

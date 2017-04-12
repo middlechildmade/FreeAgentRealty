@@ -80,3 +80,73 @@
     width: 100%!important;
 }
 }
+.clear li {
+    border: 0!important;
+}
+.split {
+    padding-left: 3em;
+    padding-top: 1em;
+}
+.split h3 {
+    margin-bottom: 0!important;
+}
+.bottom_spacer {
+    margin-bottom: 2em;
+}
+hr.major-review {
+    margin-top: -2.8em;
+}
+@media screen and (max-width: 980px){
+    .big_star {
+        font-size: 2em!important;
+    }
+}
+@media screen and (max-width: 560px){
+    .big_star {
+        font-size: 1.5em!important;
+    }
+}
+@media screen and (max-width: 736px) {
+    .smaller-width {
+    width: 100%!important;
+}
+}
+.sold {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+    color: #eb8585;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.new {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+    color: #fed586;;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;   
+}
+.reduced {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+    color: #fed586;;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;   
+}
+@media screen and (max-width: 1680px) {
+
+    .carousel article .content {
+        padding: 2em 4em 2em 4em;
+    }
+}
+.carousel article .content {
+    padding: 2em 5em 1.5em 5em;
+}
+.carousel h3 {
+    margin: 0;
+}
