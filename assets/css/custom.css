@@ -196,6 +196,7 @@ hr.major-review {
 }
 .footer-right {
     text-align: right;
+    padding-top: 0!important;
 }
 
 /* Poptrox */
@@ -462,3 +463,4 @@ hr.major-review {
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
