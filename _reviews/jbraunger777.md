@@ -1,6 +1,6 @@
 ---
 title: Always keeping my interests above his own
-layout: page
+layout: default
 date_text: 07/29/2016
 username: jbraunger777
 short_description: Bought a Condo home in 2016 for approximately $75K in Fitchburg,
