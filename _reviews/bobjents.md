@@ -36,6 +36,4 @@ star_negotiation_01: ''
 star_negotiation_02: ''
 star_negotiation_03: ''
 star_negotiation_04: ''
-date: '2017-04-18T20:27:38.123+00:00'
 ---
-<!-- All four stars will automatically be gold, Enter eeeeee when a star needs to be "turned off" -->
