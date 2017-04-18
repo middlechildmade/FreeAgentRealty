@@ -1,6 +1,6 @@
 ---
 title: We always felt very comfortable
-layout: page
+layout: default
 date_text: 07/29/2016
 username: amayhewo
 short_description: Bought a Single Family home in 2016 for approximately $250K in
