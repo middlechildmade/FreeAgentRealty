@@ -2,7 +2,6 @@
 title: 337 Bonnie Rd
 status: 
 layout: listing
-sidebar: sidebar_property.html
 address: 337 Bonnie Rd Cottage Grove, WI 53527
 city: Cottage Grove
 state: Wi
@@ -12,6 +11,7 @@ bed: 2
 bath: 1
 price: 179&#44;900
 mls: 1787398
+features:
 pdf: blank.pdf
 image_featured: "/images/2829foxwood/cover.jpg"
 image_featured_2: "/images/2829foxwood/cover.jpg"

@@ -1,3 +1,14 @@
+#footer .links > div {
+    width: 50%!important;
+}
+@media screen and (max-width: 480px) {
+    #footer .links > div {
+        width: 100%!important;
+        text-align: center;
+    }
+
+}
+
 .map_sidebar {
     height: 300px;
     width: 100%;
@@ -13,9 +24,9 @@
 /** margin-bottom: 2em;
     border-radius: 4px; **/
 }
-#banner > .items section {
+/** #banner > .items section {
     height: 100%;
-}
+}**/
 #banner {
     min-height: 600px;
 }
