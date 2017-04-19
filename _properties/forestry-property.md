@@ -16,7 +16,7 @@ features:
 - Leaves
 - Grass
 - Trees
-layout: default
+layout: listing
 latitude: ''
 longitude: ''
 image_featured: ''
