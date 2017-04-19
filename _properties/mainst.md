@@ -12,6 +12,8 @@ bath: 1
 price: 179900
 mls: 1787398
 features:
+- Garden
+- Air Conditioning
 - Fireplace
 pdf: blank.pdf
 image_featured: "/images/2829foxwood/cover.jpg"
