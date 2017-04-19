@@ -9,7 +9,7 @@ zip: 53527
 sq_ft: 1200
 bed: 2
 bath: 1
-price: 179900
+price: 179&#44;900
 mls: 1787398
 features:
 - Open Layout
