@@ -9,7 +9,7 @@ zip: 53562
 sq_ft: 2000
 bed: 4
 bath: 2
-price: 340000
+price: 340&#44;000
 mls: 4234231
 propertyDescription: Long description made short
 features:
