@@ -17,11 +17,11 @@ features:
 - Grass
 - Trees
 layout: listing
-latitude: ''
-longitude: ''
-image_featured: ''
-image_featured_2: ''
-image_featured_3: ''
+latitude: 43.1
+longitude: -89.3
+image_featured: images/IMG_1518.JPG
+image_featured_2: images/IMG_1516.JPG
+image_featured_3: images/IMG_1517.JPG
 image_01: ''
 image_02: ''
 image_03: ''
