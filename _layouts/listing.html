@@ -59,9 +59,9 @@ layout: default
 											<!-- Table -->
                                                 <h4>Features</h4>
 														<ul class="alt">
-															<li>{{ page.features }}</li>
-															<li>Sagittis adipiscing lorem eleifend.</li>
-															<li>Felis enim feugiat dolore viverra.</li>
+                                                {% for item in page.features %}
+															<li>{{ item }}</li>
+												{% endfor %}
 														</ul>
 										</div>
 										<div class="7u$ 12u$(medium)">
