@@ -1,6 +1,6 @@
 ---
 title: Main St
-status: 
+status: ''
 layout: listing
 address: main st Cottage Grove, WI 53527
 city: Cottage Grove
@@ -9,9 +9,10 @@ zip: 53527
 sq_ft: 1200
 bed: 2
 bath: 1
-price: 179&#44;900
+price: 179900
 mls: 1787398
 features:
+- Fireplace
 pdf: blank.pdf
 image_featured: "/images/2829foxwood/cover.jpg"
 image_featured_2: "/images/2829foxwood/cover.jpg"
@@ -34,5 +35,13 @@ image_15: "/images/2829foxwood/015.jpg"
 image_16: "/images/2829foxwood/001.jpg"
 latitude: 43.086947
 longitude: -89.19947
-propertyDescription: Finally....an affordable home with style! Lots to love about this one. Great light filled open floorplan. Awesome living room with a vaulted ceiling and skylight. Super functional updated eat in kitchen. Spacious master bedroom with a walk-in closet.<br /><br />A nice deck and really cool screened porch provide additional living space during the warmer months and overlook the good size fully fenced backyard. The unfinished basement is exposed, stubbed for a bathroom, has a walk out, and offers an opportunity for future expansion. This home would make a great place to get started, come take a look.
+propertyDescription: Finally....an affordable home with style! Lots to love about
+  this one. Great light filled open floorplan. Awesome living room with a vaulted
+  ceiling and skylight. Super functional updated eat in kitchen. Spacious master bedroom
+  with a walk-in closet.<br /><br />A nice deck and really cool screened porch provide
+  additional living space during the warmer months and overlook the good size fully
+  fenced backyard. The unfinished basement is exposed, stubbed for a bathroom, has
+  a walk out, and offers an opportunity for future expansion. This home would make
+  a great place to get started, come take a look.
+date: '2017-04-19T16:16:57.828+00:00'
 ---
