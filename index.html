@@ -1,42 +1,126 @@
-<!-- forestryio: ignore; forestryio: admin -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin</title>
-    <meta name="description" content=" " />
-    <meta name="author" content=" " />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
-    <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+---
+layout: default
+title: Home
+---
 
-    <link rel="stylesheet" href="https://local.forestry.io/main.css" />
+							<!-- Banner -->
+								<section id="banner">
+									<div class="items">
+										<section class="accent2">
+											<h1>The Best Deal<br />In Real Estate</h1>
+											<p>Full service commission free listing agents serving all your real estate needs in the Madison WI area.</p>
+											<ul class="actions">
+												<li><a href="{{ site.baseurl }}/how_we_work.html" class="button special">Learn More</a></li>
+											</ul>
+										</section>
+										<section class="accent3">
+											<h1>Local</h1>
+											<p>We live in the community we serve and there is no out of state headquarters for us to report to.</p>
+											<ul class="actions">
+												<li><a href="{{ site.baseurl }}/about.html" class="button special">Learn More About Us</a></li>
+											</ul>
+										</section>
+									</div>
+									<div class="slider">
+										<article>
+											<img src="images/walkway1600x815.jpg" alt="" data-position="bottom right" />
+										</article>
+										<article>
+											<img src="images/CapV3_1600x815.jpg" alt="" data-position="bottom right" />
+										</article>
+										<article>
+											<img src="images/downtown1600x815.jpg" alt="" data-position="center" />
+										</article>
+									</div>
+								</section>
 
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+						</div>
+					</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+				<!-- Wrapper -->
+					<div class="wrapper">
+						<div class="inner">
 
-    <!-- Fort awesome icon kit -->
-    <script src="https://use.fortawesome.com/b6f38602.js"></script>
+							<!-- Section -->
+								<section class="main">
+									<header class="major">
+										<h2>Full Service Commission Free Listing Agents</h2>
+										<p>The Best Deal In Real Estate</p>
+									</header>
+									<div class="features">
+										<section>
+                                            <a href="{{ site.baseurl }}/services.html">
+											<span class="icon fa-suitcase major accent4"></span>
+											<h3>Contract Execution</h3>
+											<p>Our Free Agents will navigate the offer process on your behalf giving you added piece of mind during your home sale.</p>
+                                            </a>
+                                        </section>
+										<section>
+                                            <a href="{{ site.baseurl }}/services.html">
+											<span class="icon fa-flag major accent1"></span>
+											<h3>Showing Service</h3>
+                                            <p>We will be there to make sure your home puts it's best foot forward.</p>
+                                            </a>
+										</section>
+										<section>
+                                            <a href="{{ site.baseurl }}/services.html">
+											<span class="icon fa-thumbs-o-up major accent2"></span>
+											<h3>And More...</h3>
+											<p>See more of the ways we can help you.</p>
+                                            <p><a href="{{ site.baseurl }}/services.html">Listing Services</a>
+                                            </p>
+                                            </a>
+										</section>
+									</div>
+								</section>
 
-</head>
-<body>
-<div id="app">
+							<!-- Section -->
+								<section class="carousel accent4">
+									{% for properties in site.properties %}
+                                    <article class="smaller-width">
+                                        <div class="image"><a href="{{ site.baseurl }}{{ properties.url }}"><img src="{{ properties.image_featured }}" alt="" data-position="center" /></a></div>
+										<div class="content">
+                                            <a href="{{ site.baseurl }}{{ properties.url }}"><h3>{{ properties.title }}</h3></a>
+											<div>{{ properties.city }} {{ properties.state }} {{ properties.zip }}</div>
+                                            <div><span class="{{ properties.status }}">{{ properties.status }}</span></div>
+										</div>
+									</article>
+									{% endfor %}
+									<nav>
+										<a href="#" class="previous"><span class="label">Previous</span></a>
+										<a href="#" class="next"><span class="label">Next</span></a>
+									</nav>
+								</section>
 
-</div>
-<script id="admin-config-script" type="text/javascript">
-    var env = {
-        api: "https://forestry.io",
-        siteId: "vtmqrdq-bthbqa",
-        dateFormat: "MM/DD/YYYY h:mm A"
-    };
-</script>
-<script type="application/javascript" src="https://local.forestry.io/forestry.min.js"></script>
+							<!-- Section -->
+								<section class="main">
+									<header class="major">
+										<h2>The Best Deal In Real Estate</h2>
+										<p>Free Agent Realty</p>
+									</header>
+									<div class="spotlights">
+										<article>
+											<div class="image"><img src="images/CapV3_1600x815.jpg" alt="" data-position="bottom right" /></div>
+											<div class="content">
+												<h3>Selling a house.<br />Buying a house.</h3>
+												<p>These are stressful situations for both new and seasoned individuals, but that's why we're here. Let us take some of the pressure off. We can even save you money in the process.</p>
+												<ul class="actions">
+													<li><a href="{{ site.baseurl }}/how_we_work.html" class="button special">Learn More</a></li>
+												</ul>
+											</div>
+										</article>
+										<article>
+											<div class="image"><img src="images/lakeview_1600x815.jpg" alt="" data-position="center" /></div>
+											<div class="content">
+												<h3>The Free Agent Realty Difference</h3>
+												<p>At Free Agent Realty we provide all around dedicated customer service, without the commission, when you sell your home.</p>
+												<ul class="actions">
+													<li><a href="{{ site.baseurl }}/how_we_work.html" class="button special">Learn More</a></li>
+												</ul>
+											</div>
+										</article>
+									</div>
+								</section>
 
-</body>
-</html>
+						</div>
+					</div>
