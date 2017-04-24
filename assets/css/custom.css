@@ -8,6 +8,9 @@
     }
 
 }
+.hide{
+    display: none;
+}
 
 .map_sidebar {
     height: 300px;
